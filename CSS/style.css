@@ -31,6 +31,7 @@ overflow: hidden;
 #navbar {
   background-color: #333;
   color: #fff;
+  padding:5px;
 }
 
 #navbar ul {
@@ -62,7 +63,7 @@ overflow: hidden;
 }
 
 #showcase h1{
-color:rgb(43, 41, 41);
+color:#333;
 font-size:50px;
 line-height: 1.6em;
 padding-top: 30px;
@@ -78,6 +79,40 @@ margin-top: 370px;
   margin-top:0px;
 
 }
-#main  {
-  
+
+.container, section, content {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  }
+
+#menu {
+  color: rgb(2, 2, 2);
+  text-align: center;
+  text-decoration:underline;
+  margin:30px;
 }
+
+#lime-recept {
+  color:red;
+  margin:auto;
+}
+
+#table1 {
+  color:rgb(57, 57, 189);
+}
+#table1 th {
+  margin:0;
+}
+
+
+#Lime-pie-img {
+  width:50%;
+  float:left;
+  margin-right:0px;
+  margin-left:25px;
+  margin-bottom:0px;
+  margin-top:0px;  
+}
+
+
