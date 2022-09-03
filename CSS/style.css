@@ -58,13 +58,13 @@ overflow: hidden;
 
 #showcase {
   background-image:url('../images/header1.jpg');
-  background-repeat: ;
   width: auto;
   background-position:center right;
   min-height:500px;
   margin-bottom:50px;
   text-align:left;
 }
+
 
 #showcase h1{
 color:aliceblue;
@@ -81,119 +81,87 @@ margin-top: 370px;
   margin-left:0px;
   margin-bottom:10px;
   margin-top:0px;
-
-}
-
-.container, section, content {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-  }
-
-#menu {
-  color: rgb(2, 2, 2);
-  text-align: center;
-  text-decoration:underline;
-  margin:30px;
-}
-
-#lime-recept {
-  color:rgb(40,28,14);
-  font-size: 25px;
-  margin-top:30px;
-  margin-bottom: 30px;
-}
-
-#table1 {
-  color:rgb(127,53,26);
-  font-size: 16px;
-  text-align:left;
-  line-height: 1em;
-}
-
-#Lime-pie-img {
-  width: 80%;
-  float:left;
-  margin:0;
+  border:3px;
   border-style: solid;
-  border-radius: 5px;
-  border-color:rgba(255, 255, 255, 0.866);
+  border-color: aliceblue;
+  border-radius: 20%;
+
 }
 
-#ingredients1name {
-  color:rgb(0, 0, 0);
-  background-color: rgb(252,201,182);
+.headline {
+  height: 1,2em;
+  font-size: 25px;
   font-style: italic;
+  margin: 30px;
+  width: auto;
+  
+}
+.headline h2 {
   text-align: center;
-  padding: 30px;
-  margin: 0px;
-  padding:0%;
+  margin: 50px;
+  font-style: normal;
 }
-
-.ingredient {
-  background-color: rgb(182,116,84);
-  line-height: 1,5em;
-  width:auto;
-  text-align:left;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-top: 0px;
-  text-decoration: none;
-  list-style:none;
+.headline h3{
+  color:rgb(160, 53, 14);
+  margin-bottom: 0px;
 }
-
-
-#cookingname {
+.headline h4 {
+  font-size: 22px;
+  text-decoration: underline;
+}
+.headline h5 {
+  font-weight: 450;
   font-size: 18px;
-  font-style: italic;
-  text-decoration:none;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  text-align: left;
+  
 }
 
+.table {
+  color:rgb(141, 95, 241);
+  font-size: 12px;
+  text-align:left;
+  margin-left: 30px;
+}
 
-.container2 {
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-  }
+.recept {
+width: 80%;
+margin: auto;
+overflow: hidden;
+text-decoration: none;
+}
 
-#Guinness-recept {
-  color:rgb(40,28,14);
-  font-size: 25px;
-  margin-top:30px;
-  margin-bottom: 30px;
-  } 
-
-#Guinness-cake-img {
-  width: 80%;
+.ingredients li {
+  width: 50%;
+  text-align:left;
+  font-weight: 400;
+}
+.pics {
+  width: 50%;
   float:right;
-  margin:0;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:rgba(255, 255, 255, 0.866);
+
 }
 
-.container3 {
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-  }
+.list li {
+font-weight: 300;
+list-style:none;
+line-height: 2,3em;
+margin: 12px;
+margin-left: 0%;
+}
 
-#rhubarb-recept {
-  font-size: 25px;
-  color:rgb(40,28,14);
-  margin-top:30px;
-  margin-bottom: 30px;
-  } 
+.url {
+text-align: left;
+margin: auto;
+width: 80%;
+}
 
-#Rhubarb-pie-img {
-  width: 80%;
-  float:left;
-  margin:0;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:rgba(255, 255, 255, 0.866);
+.url ul{
+ padding:0;
+ list-style:none;
+}
+
+.url li{
+  display: inline;
 }
 
 #main-footer {
@@ -220,34 +188,44 @@ margin-top: 0px;
   
 }
 
-#sidebar a:hover {
+.url a:hover {
   color:rgb(141, 95, 241);
 }
-#sidebar a:active {
+.url a:active {
   color:rgb(8, 3, 17);
 }
-#sidebar a:focus {
+.url a:focus {
   color:rgb(62, 4, 21);
 }
 
-#content a {
-  list-style:none;
+.url a {
+  text-decoration:underline;
   display: inline;
   font-size: small;
 }
 
 
-#content a:hover {
+#sidebar a:hover {
   color:rgb(141, 95, 241);
 }
   
   
-#content a:active {
+#csidebar a:active {
     color:rgb(8, 3, 17);
   }
   
-#content a:focus {
+#sidebar a:focus {
     color:rgb(62, 4, 21);
   }
 
+@media(max-width:600px) {
+  #main{
+    width: 100%;
+    float: none;
+  }
+  #sidebar{
+    width: 100%;
+    float: none;
+  }
+}
 
